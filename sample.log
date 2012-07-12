@@ -1,0 +1,172 @@
+
+Connection index 0x440(1088) [ Fuji 0 ]
+This is a temporaray cnx
+
+Lookup Key Section:
+Mtu                            0
+Source port (0-based)          0, (null)
+L2 type                        E2
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+MAC DA                         00-00-00-00-00-00
+MAC SA                         00-00-00-00-00-00
+Ether Type                     0
+
+ Transmit Section: 
+Mtype = Unicast
+Flow Id = 7246, ge.4.22, priority 2
+IRIB present
+Out Mirror Dis = 1, In Mirror Dis = 1, Snoop = 0, Exc Src Port = 0, Drop Prec = 0, Src Port Ext = 0x1
+Switch
+In tagged, Out = Check Egress Table, TCI = 0x70, Use Alt EtherType = 0
+Mirror Cmd = 0, MirrorCnt = 0, Lag Hash = 0, ARL = 0x3ff, IRL = 0xfff, Error Bits = 0x0
+Source Port = 0x0, Dest Port = 0x0, Priority = 2
+
+ Statistics Section:
+Packet Count Upper             0
+Packet Count Lower             1
+Byte Count Upper               0
+Byte Count Lower               256
+
+Connection index 0x441(1089) [ Fuji 0 ]
+This is a temporaray cnx
+
+Lookup Key Section:
+Mtu                            0
+Source port (0-based)          0, (null)
+L2 type                        E2
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+MAC DA                         00-00-00-00-00-00
+MAC SA                         00-00-00-00-00-00
+Ether Type                     0
+
+ Transmit Section: 
+Mtype = Unicast
+Flow Id = 7246, ge.4.22, priority 2
+IRIB present
+Out Mirror Dis = 1, In Mirror Dis = 1, Snoop = 0, Exc Src Port = 0, Drop Prec = 0, Src Port Ext = 0x1
+Switch
+In tagged, Out = Check Egress Table, TCI = 0x70, Use Alt EtherType = 0
+Mirror Cmd = 0, MirrorCnt = 0, Lag Hash = 0, ARL = 0x3ff, IRL = 0xfff, Error Bits = 0x0
+Source Port = 0x0, Dest Port = 0x0, Priority = 2
+
+ Statistics Section:
+Packet Count Upper             0
+Packet Count Lower             1
+Byte Count Upper               0
+Byte Count Lower               256
+
+Connection index 0x442(1090) [ Fuji 0 ]
+This is a temporaray cnx
+
+Lookup Key Section:
+Mtu                            0
+Source port (0-based)          0, (null)
+L2 type                        E2
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+Cam Address                    0  MAC DA/SA + ethertype, untagged
+MAC DA                         00-00-00-00-00-00
+MAC SA                         00-00-00-00-00-00
+Ether Type                     0
+
+ Transmit Section: 
+Mtype = Unicast
+Flow Id = 7246, ge.4.22, priority 2
+IRIB present
+Out Mirror Dis = 1, In Mirror Dis = 1, Snoop = 0, Exc Src Port = 0, Drop Prec = 0, Src Port Ext = 0x1
+Switch
+In tagged, Out = Check Egress Table, TCI = 0x70, Use Alt EtherType = 0
+Mirror Cmd = 0, MirrorCnt = 0, Lag Hash = 0, ARL = 0x3ff, IRL = 0xfff, Error Bits = 0x0
+Source Port = 0x0, Dest Port = 0x0, Priority = 2
+
+ Statistics Section:
+Packet Count Upper             0
+Packet Count Lower             1
+Byte Count Upper               0
+Byte Count Lower               134
+
+
+
+Connection index 0x7f59f(521631) [ Fuji 0 ]
+
+Lookup Key Section:
+Mtu                            1518
+Source port (0-based)          0xc00, ge.4.1
+L2 type                        E2
+Cam Address                    45  IPV4 TCP L5, untagged
+MAC DA                         00-10-db-ff-21-50
+MAC SA                         00-01-f4-44-54-c8
+Type/Length                    0x45
+IPV4 Tos                       0
+IPV4 Protocol Type             0x6
+IPV4 DIP                       172.26.10.11
+IPV4 SIP                       193.168.37.94
+L4 Dest Port                   0xb852(47186)
+L4 Source Port                 0xdddd(56797)
+
+ Transmit Section: 
+Mtype = Unicast
+Flow Id = 7614, ge.4.46, priority 2
+Out Mirror Dis = 0, In Mirror Dis = 1, Snoop = 0, Exc Src Port = 0, Drop Prec = 0, Src Port Ext = 0x3
+Switch
+In untagged, Out = Check Egress Table, TCI = 0x61, Use Alt EtherType = 0
+Mirror Cmd = 0, MirrorCnt = 0, Lag Hash = 0, ARL = 0x3ff, IRL = 0xfff, Error Bits = 0x80
+TCP Flags = 0x5 ( ACK FIN)
+Source Port = 0xc00, Dest Port = 0x0, Priority = 2
+
+ Statistics Section:
+Packet Count Upper             0
+Packet Count Lower             5
+Byte Count Upper               0
+Byte Count Lower               436
+
+Connection index 0x7f5a0(521632) [ Fuji 0 ]
+
+Lookup Key Section:
+Mtu                            1518
+Source port (0-based)          0xc00, ge.4.1
+L2 type                        E2
+Cam Address                    51  IPV4 UDP L5, untagged
+MAC DA                         00-10-db-ff-21-50
+MAC SA                         00-01-f4-44-54-c8
+Type/Length                    0x45
+IPV4 Tos                       0x68
+IPV4 Protocol Type             0x11
+IPV4 DIP                       10.2.240.12
+IPV4 SIP                       193.168.45.135
+L4 Dest Port                   0x1f4(500)
+L4 Source Port                 0x400(1024)
+
+ Transmit Section: 
+Mtype = Unicast
+Flow Id = 7614, ge.4.46, priority 2
+Out Mirror Dis = 0, In Mirror Dis = 1, Snoop = 0, Exc Src Port = 0, Drop Prec = 0, Src Port Ext = 0x3
+Switch
+In untagged, Out = Check Egress Table, TCI = 0x61, Use Alt EtherType = 0
+Mirror Cmd = 0, MirrorCnt = 0, Lag Hash = 0, ARL = 0x3ff, IRL = 0xfff, Error Bits = 0x80
+Source Port = 0xc00, Dest Port = 0x0, Priority = 2
+
+ Statistics Section:
+Packet Count Upper             0
+Packet Count Lower             1
+Byte Count Upper               0
+Byte Count Lower               90
+
+
+
