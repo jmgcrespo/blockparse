@@ -8,19 +8,28 @@ class BlockParse
 		@pat=pat1
 		@pat.each_key { |v| @header.concat([*v])}
 		@head_pat=Hash[*@pat.shift]
+
 		
         
     end
         attr_reader :header
     
 	public
+
+
 	
 	def each
 	
 	block=Hash.new
 	
-		while ( block = self.next )
-		yield(block)
+		block, all_block = self.next
+
+		while ( block.class == Hash  )
+
+		yield block , all_block 
+
+		block, all_block  = self.next
+
 		end
 	end
 	
@@ -38,9 +47,11 @@ class BlockParse
 					 @input.lineno=(@input.lineno - 1 ) 
 					 break 
 					 end
-					 
+					
 					block=Hash.new
+					all_block=Array.new
 					updateHash(block,@head_pat.keys[0],m[1, m.length - 1 ] )
+					all_block.push(line)
 					start_flag = 1
 					aux_pat=@pat.clone
 		
@@ -53,20 +64,21 @@ class BlockParse
 			        aux_pat.each { |key,value|
 
 			 
-					if ( m=value.match(line) )	
+						if ( m=value.match(line) )	
 
-						updateHash(block, key, m[1, m.length - 1 ])
-						aux_pat.delete(key)
+							updateHash(block, key, m[1, m.length - 1 ])
+							aux_pat.delete(key)
 					 
-					end
-				}
+						end
+					}
 	  
-	  
+	  		   	all_block.push(line)
+
 			
 		end
 		
 			
-			return block
+			return block, all_block
 		
 	
 	end
@@ -74,10 +86,9 @@ class BlockParse
 
 	
 	def parse 
-	cnx=Array.new
-	self.each { |block| cnx.push(block) }
+		cnx=Array.new
+		self.each { |block| cnx.push(block) }
         return cnx
-
 	end
     
 		
